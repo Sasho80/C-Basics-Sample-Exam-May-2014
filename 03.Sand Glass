@@ -1,0 +1,37 @@
+using System;
+
+class SandGlass
+{
+    static void Main()
+    {
+        int n = int.Parse(Console.ReadLine());
+        string asterisk=new string('*',n);
+        string dots = new string('.',n);
+        Console.Write(asterisk);
+        for (int i = n; i >=1 ; i=i-2)
+        {
+            if (i<n)
+            {
+                dots=new string('.',(n-i)/2);
+                Console.Write(dots);
+                asterisk = new string('*', i);
+                Console.Write(asterisk);
+                Console.Write(dots);
+            }
+            Console.WriteLine();
+        }
+        for (int i = 3; i <= n; i = i + 2)
+        {
+            if (i <=n)
+            {
+                dots = new string('.', (n - i) / 2);
+                Console.Write(dots);
+                asterisk = new string('*', i);
+                Console.Write(asterisk);
+                Console.Write(dots);
+            }
+            Console.WriteLine();
+        }
+    }
+}
+
