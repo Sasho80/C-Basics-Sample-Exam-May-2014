@@ -17,15 +17,18 @@ Constraints
 •	Time limit: 0.25 seconds.
 •	Allowed memory: 16 MB.
 Examples
-Input	Output		Input	Output		Input	Output
+Input	Output				
 1
 1
 1
 4	3
-		2
+Input	Output	
+2
 3
 4
-10	335		5
+10	335
+Input	Output
+5
 -1
 2
 33	208691269
